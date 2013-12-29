@@ -4,7 +4,7 @@
       "Stefan Hornburg (Racke) <racke@linuxia.de>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.133380",
    "license" : [
       "perl_5"
    ],
@@ -45,11 +45,11 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/interchange/Dancer-Plugin-DBIC/issues"
+         "web" : "https://github.com/interchange/Dancer-Session-DBIC/issues"
       },
       "repository" : {
-         "url" : "https://github.com/interchange/Dancer-Plugin-DBIC.git"
+         "url" : "https://github.com/interchange/Dancer-Session-DBIC.git"
       }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }
