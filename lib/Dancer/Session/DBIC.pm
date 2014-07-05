@@ -6,7 +6,7 @@ Dancer::Session::DBIC - DBIx::Class session engine for Dancer
 
 =head1 VERSION
 
-0.002
+0.003
 
 =head1 DESCRIPTION
 
@@ -55,13 +55,13 @@ This session engine will not automagically remove expired sessions on the server
 use strict;
 use parent 'Dancer::Session::Abstract';
 
-use Dancer qw(:syntax);
+use Dancer qw(:syntax !load);
 use DBIx::Class;
 use Try::Tiny;
 use Module::Load;
 use Scalar::Util qw(blessed);
 
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 my %dbic_handles;
 
